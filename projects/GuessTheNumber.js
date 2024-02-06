@@ -1,3 +1,4 @@
+//digitsl clock
 // const clock = document.querySelector("#clock");
 
 // setInterval(() => {
@@ -6,6 +7,7 @@
 //   clock.innerText = date.toLocaleTimeString();
 // }, 1000);
 
+//guess the number
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector("#subt");

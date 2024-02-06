@@ -1,11 +1,14 @@
-// const clock = document.querySelector("#clock");
+// running clock
 
+// const clock = document.querySelector("#clock");
 // setInterval(() => {
 //   let date = new Date();
 // console.log(date.toLocaleTimeString());
 //   clock.innerText = date.toLocaleTimeString();
 // }, 1000);
 
+
+//guess the number
 let randomNumber = parseInt(Math.random() * 100 + 1);
 
 const submit = document.querySelector("#subt");

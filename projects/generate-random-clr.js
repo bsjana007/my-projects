@@ -1,4 +1,5 @@
 //Generate a random color
+//changes bacground color in evey second
 const randomColor = () => {
   const hex = "0123456789ABCDEF";
   let color = "#";

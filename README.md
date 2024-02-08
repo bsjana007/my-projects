@@ -1,3 +1,3 @@
-Here Is My Projects Repository.I Hope You Will Like it.
+Here Is my projects Repository.I Hope You Will Like it.
 <br>
 Author: B S Jana

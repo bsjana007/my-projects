@@ -1,0 +1,47 @@
+body {
+  color: #fff;
+  background-color: rgb(97, 121, 119);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: black;
+  height: 310px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.photo {
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+  margin: 0;
+  padding: 0;
+}
+.followers {
+  font-size: 14px;
+  color: white;
+  margin: 3px;
+  height: 10px;
+}
+.following {
+  height: 10px;
+  font-size: 14px;
+  color: white;
+  margin: 5px;
+}
+.name {
+  height: 10px;
+  font-size: 16px;
+  color: white;
+  margin: 3px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}

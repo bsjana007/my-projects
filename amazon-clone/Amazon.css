@@ -1,178 +1,177 @@
 * {
   margin: 0;
-  /* padding: 0; */
-  font-family: arial, sans-serif;
+  padding: 0;
   border: border-box;
+  font-family: Arial;
 }
 
 .navbar {
   height: 60px;
   background-color: #0f1111;
-  color: white;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
+  color: white;
 }
-
 .nav-logo {
   height: 50px;
   width: 100px;
 }
 
 .logo {
-  background-image: url("images/amazon_logo.png");
+  background-image: url(Amazon/amazon_logo.png);
   background-size: cover;
   height: 50px;
   width: 100%;
 }
-
 .border {
   border: 1px solid transparent;
-  /* height: 50px; */
 }
-
 .border:hover {
-  border: 1px solid white;
-  border-radius: 3px;
+  border: 2px solid white;
+  border-radius: 4px;
 }
-
 /* Box2 */
 .add-first {
   color: #cccccc;
-  font-size: 0.85rem;
   margin-left: 15px;
+  font-size: 0.85rem;
 }
-
-.add-second {
-  caret-color: #ffffff;
-  font-size: 1rem;
-  margin-left: 3px;
-  font-weight: 700;
-}
-
 .add-icon {
   display: flex;
   align-items: center;
 }
-
+.add-second {
+  color: #fff;
+  margin-left: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+}
 /* box 3 */
 .nav-search {
   display: flex;
-  justify-content: space-evenly;
-  background-color: pink;
-  width: 620px;
-  height: 40px;
-  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
 }
-
-.search-select {
-  background-color: #f3f3f3;
+.nav-select {
+  height: 40px;
   width: 50px;
-  text-align: center;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   border: none;
+  background-color: #f3f3f3;
+  text-align: center;
 }
-
-.search-input {
-  width: 100%;
+.search {
+  height: 40px;
+  width: 576px;
   font-size: 1rem;
   border: none;
 }
-
 .search-icon {
-  width: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
+  height: 40px;
+  width: 50px;
   background-color: #febd68;
+  color: #0f1111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  color: #0f1111;
 }
 
 .nav-search:hover {
   border: 2px solid orange;
+  border-radius: 4px;
 }
-
 /* box 4 */
+.nav-en {
+  background-color: #0f1111;
+  color: white;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border: none;
+}
 span {
   font-size: 0.7rem;
 }
-
-.nav-second {
-  font-size: 0.85rem;
-  font-weight: 700;
+/* box 5*/
+.nav-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-/* box 5 */
-
+.acc {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.nav-account select {
+  background-color: #0f1111;
+  color: white;
+  border: none;
+}
+/* box 6 */
 .nav-cart i {
   font-size: 30px;
 }
-
 .nav-cart {
   font-size: 0.85rem;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* panel */
 .panel {
-  height: 40px;
+  height: 39px;
+  width: 100%;
   background-color: #222f3d;
+  color: white;
   display: flex;
-  color: white;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
 }
-
-.panel-ops a {
-  display: inline;
-  margin-left: 15px;
-  color: white;
-  text-decoration: none;
+.panel-all {
+  font-size: 0.85rem;
+  font-weight: 600;
 }
-
 .panel-ops {
-  width: 70%;
+  /* width: 70%; */
   font-size: 0.85rem;
 }
-
-.panel-deals a {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: white;
+.panel-ops a {
   text-decoration: none;
+  color: white;
+  display: inline;
+  margin-left: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
-
 /* hero section */
 .hero-section {
-  background-image: url("images/hero_image.png");
+  background-image: url(Amazon/hero_image.png);
   background-size: cover;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
-
 .hero-msg {
-  background-color: white;
-  color: black;
-  height: 40px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 40px;
   font-size: 0.85rem;
   width: 80%;
-  margin-bottom: 25px;
-  font-weight: 550;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
-
 .hero-msg a {
   color: #007185;
 }
-
 /* shop section */
 
 .shop-section {
@@ -181,32 +180,78 @@ span {
   justify-content: space-evenly;
   background-color: #e2e7d6;
 }
-
 .box {
-  /* border: 2px solid black; */
   height: 400px;
   width: 23%;
-  background-color: white;
+  background-color: #fff;
   padding: 20px 0 15px;
   margin-top: 15px;
 }
-.box-img {
-  height: 300px;
-  background-size: cover;
-  /* background-repeat: no-repeat; */
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .box-content {
   margin-left: 1rem;
   margin-right: 1rem;
 }
-
 .box-content a {
-  color: #007185;
   text-decoration: none;
+  color: #007185;
 }
+.box-img1 {
+  background-image: url(Amazon/box1_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img2 {
+  background-image: url(Amazon/box2_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img3 {
+  background-image: url(Amazon/box3_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img4 {
+  background-image: url(Amazon/box4_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img5 {
+  background-image: url(Amazon/box5_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img6 {
+  background-image: url(Amazon/box6_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img7 {
+  background-image: url(Amazon/box7_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-img8 {
+  background-image: url(Amazon/box8_image.png);
+  background-size: cover;
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 
 /* footer */
 footer {
